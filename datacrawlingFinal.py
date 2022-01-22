@@ -3,7 +3,7 @@ import re
 import pandas
 from textblob import TextBlob
 # Pada program ini saya menggunakan bearer token untuk mengakses tweet
-client = tweepy.Client('AAAAAAAAAAAAAAAAAAAAAELUVwEAAAAAlXh080nAcl0%2FVU7KulULytWhHHQ%3DLObPeKaM1IBEOgobpIO5Tarzp4FXA59swZYraD2Rw6O1x0qTAk')
+client = tweepy.Client('[bearer token]')
 # ditampung dengan variable tweets, akan digunakan function search_recent_tweets 
 # untuk mencari tweet yang berhubungan dengan covid19 sampai batas 2 hari yang lalu 
 # dan pada attempt untuk data crawling ini dicoba pada tanggal 19 sehingga end_timenya 
